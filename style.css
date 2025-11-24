@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#lista-tarefas {
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+#lista-tarefas li {
+    margin: 8px 0;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* Estilo da tarefa concluída */
+.tarefa-concluida {
+    text-decoration: line-through;
+    color: #777;
+}
